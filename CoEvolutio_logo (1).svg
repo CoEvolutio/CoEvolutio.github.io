@@ -1,0 +1,101 @@
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:none;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">CoEvolutio Logo</title>
+  <desc style="fill:none;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">CoEvolutio organization logo featuring an interlocking double-helix symbol representing human-AI co-evolution, with elegant typography</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+
+    
+  <mask id="imagine-text-gaps-jdefpj" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="520" fill="white"/><rect x="418" y="193.5" width="54.1640625" height="48.5" fill="black" rx="2"/><rect x="470" y="193.5" width="124.921875" height="48.5" fill="black" rx="2"/><rect x="418" y="247.5" width="154.6640625" height="17" fill="black" rx="2"/><rect x="428" y="284.5" width="111.3359375" height="17" fill="black" rx="2"/><rect x="427.9339904785156" y="306.5" width="117.53475952148438" height="17" fill="black" rx="2"/><rect x="418.53125" y="335" width="96.9375" height="16" fill="black" rx="2"/></mask></defs>
+
+  <!-- Background card -->
+  <rect x="40" y="20" width="600" height="480" rx="20" style="fill:#F5F0E8;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══════════════════════════════════════════════
+       LOGO MARK — centered at (260, 260)
+       Double helix orbit: two interlocking arcs forming
+       a continuous co-evolution loop
+  ══════════════════════════════════════════════════ -->
+
+  <!-- Decorative ring -->
+  <circle cx="260" cy="260" r="110" fill="none" stroke-width="0.5" stroke-dasharray="4 4" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:4px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="260" cy="260" r="80" fill="none" stroke-width="0.5" style="fill:none;stroke:#DDD7CC;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Spokes (subtle structure) -->
+  <line x1="260" y1="150" x2="260" y2="370" stroke-width="0.5" stroke-dasharray="2 6" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:2px, 6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="150" y1="260" x2="370" y2="260" stroke-width="0.5" stroke-dasharray="2 6" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:2px, 6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="182" y1="182" x2="338" y2="338" stroke-width="0.5" stroke-dasharray="2 6" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:2px, 6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="338" y1="182" x2="182" y2="338" stroke-width="0.5" stroke-dasharray="2 6" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-dasharray:2px, 6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ─── Human arc (purple) — upper-left orbital ─── -->
+  <!-- Main arc: 210° sweep, bold -->
+  <path d="&#10;    M 260 150&#10;    A 110 110 0 1 0 155 315&#10;  " fill="none" stroke-width="3" stroke-linecap="round" style="fill:none;stroke:#B45309;color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Fade arc connecting back -->
+  <path d="&#10;    M 155 315&#10;    A 110 110 0 0 0 260 150&#10;  " fill="none" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 4" style="fill:none;stroke:#D97706;color:rgb(255, 255, 255);stroke-width:1.5px;stroke-dasharray:6px, 4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ─── AI arc (teal) — lower-right orbital, offset 180° ─── -->
+  <path d="&#10;    M 260 370&#10;    A 110 110 0 1 0 365 205&#10;  " fill="none" stroke-width="3" stroke-linecap="round" mask="url(#imagine-text-gaps-jdefpj)" style="fill:none;stroke:#334155;color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <path d="&#10;    M 365 205&#10;    A 110 110 0 0 0 260 370&#10;  " fill="none" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 4" style="fill:none;stroke:#64748B;color:rgb(255, 255, 255);stroke-width:1.5px;stroke-dasharray:6px, 4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ─── Inner connecting curve (the "co" — mutual pull) ─── -->
+  <path d="M 260 150 C 310 200, 310 320, 260 370" fill="none" stroke-width="1" stroke-linecap="round" opacity="0.6" style="fill:none;stroke:#D97706;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 260 370 C 210 320, 210 200, 260 150" fill="none" stroke-width="1" stroke-linecap="round" opacity="0.6" style="fill:none;stroke:#64748B;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ─── Orbital nodes ─── -->
+  <!-- Human node — top -->
+  <circle cx="260" cy="150" r="8" style="fill:#B45309;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="260" cy="150" r="5" fill="white" opacity="0.3" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- AI node — bottom -->
+  <circle cx="260" cy="370" r="8" style="fill:#334155;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="260" cy="370" r="5" fill="white" opacity="0.3" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Human secondary node -->
+  <circle cx="155" cy="315" r="5" opacity="0.7" style="fill:#B45309;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- AI secondary node -->
+  <circle cx="365" cy="205" r="5" opacity="0.7" style="fill:#334155;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Center convergence point -->
+  <circle cx="260" cy="260" r="10" style="fill:#D97706;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="260" cy="260" r="6" fill="white" opacity="0.25" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="260" cy="260" r="2.5" fill="white" opacity="0.8" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ─── Arrow hints (showing direction of co-evolution) ─── -->
+  <path d="M 200 158 L 210 150 L 204 162" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:#B45309;color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 320 362 L 310 370 L 316 358" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:#334155;color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══════════════════════════════════════════════
+       TYPOGRAPHY — right of mark
+  ══════════════════════════════════════════════════ -->
+
+  <!-- Divider line -->
+  <line x1="400" y1="170" x2="400" y2="350" stroke-width="0.5" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Main wordmark -->
+  <text x="422" y="232" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="38" font-weight="300" letter-spacing="-0.5" style="fill:#1C1917;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:38px;font-weight:300;text-anchor:start;dominant-baseline:auto">Co</text>
+  <text x="474" y="232" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="38" font-weight="300" letter-spacing="-0.5" style="fill:#B45309;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:38px;font-weight:300;text-anchor:start;dominant-baseline:auto">Evolutio</text>
+
+  <!-- Tagline -->
+  <text x="422" y="260" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" font-weight="400" letter-spacing="3" style="fill:#78716C;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">EVOLVE TOGETHER</text>
+
+  <!-- Divider under name -->
+  <line x1="422" y1="272" x2="610" y2="272" stroke-width="0.5" style="fill:none;stroke:#C8C2B8;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Legend dots + labels -->
+  <circle cx="422" cy="293" r="4" style="fill:#B45309;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="432" y="297" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" font-weight="400" letter-spacing="0.5" style="fill:#44403C;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">Human Intelligence</text>
+
+  <circle cx="422" cy="315" r="4" style="fill:#334155;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="432" y="319" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="11" font-weight="400" letter-spacing="0.5" style="fill:#44403C;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">Artificial Intelligence</text>
+
+  <!-- Badge -->
+  <rect x="422" y="333" width="90" height="20" rx="4" style="fill:#FEF3C7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="422" y="333" width="90" height="20" rx="4" fill="none" stroke-width="0.5" style="fill:none;stroke:#D97706;color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="467" y="347" text-anchor="middle" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="10" font-weight="500" letter-spacing="1.5" style="fill:#92400E;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:10px;font-weight:500;text-anchor:middle;dominant-baseline:auto">OPEN SOURCE</text>
+
+</svg>
