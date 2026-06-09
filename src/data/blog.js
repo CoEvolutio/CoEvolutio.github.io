@@ -2,15 +2,15 @@
 export const blogIntro = {
   eyebrow: '博客 · Journal',
   title: ['来自社区的', '思考与记录', ''],
-  desc: '实践复盘、研究随笔与一线故事——关于我们如何与 AI 一同成长。',
+  desc: '2026 年开始记录实践复盘、研究随笔与一线故事——关于我们如何与 AI 一同成长。',
 }
 
 export const featuredPost = {
-  cat: 'Manifesto · 宣言',
-  title: '共同进化：当造物者与造物彼此塑造',
-  excerpt: '我们相信工具从不中立——它重塑使用它的人。这篇长文阐述 CoEvolutio 的核心信念：人类与 AI 不是替代关系，而是一场没有终点的相互进化。',
+  cat: 'Core Ideas · 核心思想',
+  title: '共同进化：人类与 AI 如何彼此塑造',
+  excerpt: '我们相信工具会改变使用它的人。这里记录 CoEvolutio 的核心思想：人类与 AI 不是简单替代关系，而是持续互相校准、互相放大的协作关系。',
   avatar: 'CE',
-  meta: 'CoEvolutio 编辑部 · 2026/05/28 · 14 min read',
+  meta: 'CoEvolutio 编辑部 · 2026/05/28 · 12 min read',
   href: '#',
 }
 

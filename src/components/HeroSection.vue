@@ -1,10 +1,11 @@
 <script setup>
 import { site } from '../data/site.js'
+import LogoMark from './LogoMark.vue'
 
 const stats = [
-  { num: '24', sup: '+', lbl: '开源项目' },
-  { num: '180', sup: '+', lbl: '社区成员' },
-  { num: '∞', sup: '', lbl: '共同进化' },
+  { num: '2026', sup: '', lbl: '开始共建' },
+  { num: 'Open', sup: '', lbl: '开源协作' },
+  { num: 'AI', sup: '+', lbl: 'Human in loop' },
 ]
 </script>
 
@@ -27,34 +28,9 @@ const stats = [
         </div>
       </div>
 
-      <div class="hero-art">
-        <svg viewBox="0 0 520 520" class="float" aria-hidden="true">
-          <g class="spin-slow" opacity=".5">
-            <circle cx="260" cy="260" r="200" fill="none" stroke="var(--hairline-2)" stroke-width="0.6"/>
-            <circle cx="260" cy="260" r="150" fill="none" stroke="var(--hairline)" stroke-width="0.6"/>
-            <line x1="260" y1="60" x2="260" y2="460" stroke="var(--hairline)" stroke-width="0.5"/>
-            <line x1="60" y1="260" x2="460" y2="260" stroke="var(--hairline)" stroke-width="0.5"/>
-          </g>
-          <g class="spin-rev">
-            <circle cx="370" cy="260" r="5" fill="var(--copper-l)" opacity=".5"/>
-            <circle cx="150" cy="260" r="4" fill="var(--slate-3)" opacity=".5"/>
-          </g>
-          <path class="draw glow" d="M 260 110 A 150 150 0 1 0 115 370" fill="none" stroke="var(--copper)" stroke-width="3.4" stroke-linecap="round"/>
-          <path d="M 115 370 A 150 150 0 0 0 260 110" fill="none" stroke="var(--copper-l)" stroke-width="1.6" stroke-linecap="round" opacity=".5"/>
-          <path class="draw" style="animation-delay:.3s" d="M 260 410 A 150 150 0 1 0 405 150" fill="none" stroke="var(--slate-2)" stroke-width="3.4" stroke-linecap="round"/>
-          <path d="M 405 150 A 150 150 0 0 0 260 410" fill="none" stroke="var(--slate-3)" stroke-width="1.6" stroke-linecap="round" opacity=".5"/>
-          <path d="M 260 110 C 330 175, 330 345, 260 410" fill="none" stroke="var(--copper-l)" stroke-width="1.1" opacity=".5" stroke-linecap="round"/>
-          <path d="M 260 410 C 190 345, 190 175, 260 110" fill="none" stroke="var(--slate-3)" stroke-width="1.1" opacity=".5" stroke-linecap="round"/>
-          <circle cx="260" cy="110" r="11" fill="var(--copper)"/>
-          <circle cx="260" cy="110" r="5" fill="#fff" opacity=".35"/>
-          <circle cx="260" cy="410" r="11" fill="var(--slate-2)"/>
-          <circle cx="260" cy="410" r="5" fill="#fff" opacity=".35"/>
-          <circle cx="115" cy="370" r="6" fill="var(--copper)" opacity=".7"/>
-          <circle cx="405" cy="150" r="6" fill="var(--slate-2)" opacity=".7"/>
-          <circle cx="260" cy="260" r="15" fill="var(--copper-l)"/>
-          <circle cx="260" cy="260" r="9" fill="var(--bg)" opacity=".9"/>
-          <circle cx="260" cy="260" r="4" fill="var(--copper)"/>
-        </svg>
+      <div class="hero-art reveal in d2">
+        <div class="time-orbit">2026</div>
+        <LogoMark :size="420" animated variant="hero" class="hero-mark" />
       </div>
     </div>
   </section>
@@ -82,19 +58,30 @@ const stats = [
 .stat .num span { color: var(--copper-l); }
 .stat .lbl { font-size: 12px; color: var(--ink-3); margin-top: 6px; letter-spacing: .3px; }
 
-.hero-art { position: relative; display: grid; place-items: center; }
-.hero-art svg { width: 100%; max-width: 420px; height: auto; overflow: visible; }
-.spin-slow { transform-origin: 260px 260px; animation: spin 60s linear infinite; }
-.spin-rev  { transform-origin: 260px 260px; animation: spin 90s linear infinite reverse; }
-.draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 2.6s var(--ease) forwards; }
-.glow { filter: drop-shadow(0 0 14px color-mix(in srgb, var(--copper-l) 55%, transparent)); }
+.hero-art { position: relative; display: grid; place-items: center; min-height: 420px; }
+.hero-mark { width: min(100%, 420px); height: auto; filter: drop-shadow(0 26px 42px color-mix(in srgb, var(--copper-l) 16%, transparent)); }
+.time-orbit {
+  position: absolute;
+  right: 10%;
+  top: 12%;
+  z-index: 1;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  color: var(--copper);
+  border: 1px solid var(--hairline-2);
+  border-radius: 100px;
+  padding: 5px 12px;
+  background: color-mix(in srgb, var(--surface) 72%, transparent);
+  backdrop-filter: blur(8px);
+}
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 12px; }
-  .hero-art { order: -1; max-width: 320px; margin: 0 auto 10px; }
+  .hero-art { order: -1; min-height: 300px; max-width: 340px; margin: 0 auto 10px; }
   .hero-stats { gap: 26px; flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .spin-slow, .spin-rev, .draw, .hero-badge .dot { animation: none; }
+  .hero-badge .dot { animation: none; }
 }
 </style>

@@ -23,7 +23,7 @@ const delays = ['', 'd1', '', 'd1', 'd2']
         >
           <div class="show-visual">
             <span class="show-tag">{{ item.tag }}</span>
-            <LogoMark v-if="item.useMark" :size="100" style="width:56%;height:56%" />
+            <LogoMark v-if="item.useMark" :size="100" animated variant="showcase" class="show-mark" />
             <svg v-else viewBox="0 0 24 24" fill="none" :stroke="item.iconStroke" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" v-html="item.icon"></svg>
           </div>
           <div class="show-body">
@@ -49,13 +49,14 @@ const delays = ['', 'd1', '', 'd1', 'd2']
 .show-visual { height: 200px; position: relative; overflow: hidden; display: grid; place-items: center; background: linear-gradient(135deg, var(--sand-2), var(--surface)); }
 .show-card.feat .show-visual { height: 280px; }
 .show-visual > svg, .show-visual :deep(.mark) { width: 56%; height: 56%; opacity: .92; transition: transform .6s var(--ease); }
+.show-visual :deep(.show-mark) { width: 68%; height: 68%; max-width: 200px; max-height: 200px; }
 .show-card:hover .show-visual > svg, .show-card:hover .show-visual :deep(.mark) { transform: scale(1.06) rotate(2deg); }
 .show-tag { position: absolute; top: 14px; left: 14px; font-family: var(--font-mono); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; padding: 4px 10px; border-radius: 100px; background: color-mix(in srgb, var(--bg) 80%, transparent); backdrop-filter: blur(6px); color: var(--copper); border: 1px solid var(--hairline); z-index: 1; }
 .show-body { padding: 22px 24px 26px; }
 .show-body h3 { font-family: var(--font-display); font-weight: 400; font-size: 22px; letter-spacing: -.4px; margin-bottom: 8px; }
 .show-body p { font-size: 14px; color: var(--ink-3); line-height: 1.6; margin-bottom: 16px; }
-.show-foot { display: flex; align-items: center; gap: 14px; font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
-.show-foot .pill { display: inline-flex; align-items: center; gap: 5px; }
+.show-foot { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+.show-foot .pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border: 1px solid var(--hairline); border-radius: 100px; background: var(--surface-2); }
 .show-foot .pill b { color: var(--ink-2); font-weight: 500; }
 
 @media (max-width: 900px) {

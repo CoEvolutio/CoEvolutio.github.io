@@ -16,7 +16,8 @@ const pad = (n) => String(n + 1).padStart(2, '0')
       <div class="blog-grid">
         <article class="blog-feat reveal">
           <a class="img" :href="featuredPost.href">
-            <LogoMark :size="220" class="float cover-mark" />
+            <span class="cover-year">2026</span>
+            <LogoMark :size="220" animated variant="cover" class="cover-mark" />
           </a>
           <div class="body">
             <span class="blog-cat">{{ featuredPost.cat }}</span>
@@ -44,8 +45,9 @@ const pad = (n) => String(n + 1).padStart(2, '0')
 .blog-feat { border-radius: 18px; overflow: hidden; }
 .blog-feat .img { height: 300px; background: radial-gradient(120% 120% at 70% 20%, var(--slate-2), var(--slate)); position: relative; display: grid; place-items: center; overflow: hidden; }
 .blog-feat .img::before { content:""; position:absolute; width:340px; height:340px; border-radius:50%; background: radial-gradient(circle, color-mix(in srgb, var(--copper-l) 28%, transparent), transparent 62%); top:-90px; right:-70px; }
+.cover-year { position: absolute; left: 22px; top: 18px; z-index: 1; font-family: var(--font-mono); font-size: 11px; letter-spacing: 1.7px; color: rgba(255,255,255,.7); border: 1px solid rgba(255,255,255,.18); border-radius: 100px; padding: 5px 11px; background: rgba(15,23,42,.32); backdrop-filter: blur(8px); }
 /* 深底封面：局部覆盖 Logo 配色，让 AI 弧与环线在深色上可见 */
-.cover-mark { position: relative; --slate-2: #94A3B8; --slate-3: #CBD5E1; --hairline: rgba(255,255,255,.14); --hairline-2: rgba(255,255,255,.22); --copper: #D97706; --copper-l: #F59E0B; --bg: #1E293B; }
+.cover-mark { position: relative; width: min(54%, 230px); height: auto; --slate-2: #9FB2C9; --slate-3: #CBD5E1; --hairline: rgba(255,255,255,.14); --hairline-2: rgba(255,255,255,.24); --copper: #D97706; --copper-l: #F59E0B; --bg: #1E293B; filter: drop-shadow(0 18px 32px rgba(0,0,0,.22)); }
 .blog-feat .body { padding: 28px 4px 0; }
 .blog-cat { font-family: var(--font-mono); font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--copper); }
 .blog-feat h3 { font-family: var(--font-display); font-weight: 300; font-size: 32px; line-height: 1.12; letter-spacing: -.8px; margin: 14px 0 12px; }

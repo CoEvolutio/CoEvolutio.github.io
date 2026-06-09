@@ -32,7 +32,7 @@ export const site = {
       {
         title: '关于',
         links: [
-          { label: '宣言', href: '#' },
+          { label: '核心思想', href: '#blog' },
           { label: '品牌', href: '#' },
           { label: 'License', href: '#' },
         ],
