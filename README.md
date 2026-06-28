@@ -22,9 +22,11 @@ src/
 ├─ App.vue                 页面装配
 ├─ styles/tokens.css       设计令牌 + 共享原子类（改配色看这里）
 ├─ composables/useReveal.js  滚动渐显
-├─ data/                   ★ 改内容只动这里，不碰布局
+├─ content/
+│  ├─ docs.js              自动收集 Markdown 文档
+│  └─ docs/                ★ 博客 / 文档 Markdown 放这里
+├─ data/                   ★ 站点其他内容数据
 │  ├─ site.js              品牌 / 导航 / 页脚 / GitHub 链接
-│  ├─ docs.js              知识文档卡片
 │  ├─ showcase.js          成品展示
 │  ├─ blog.js              博客文章
 │  └─ members.js           成员
@@ -32,7 +34,8 @@ src/
    ├─ LogoMark.vue         轨道双螺旋 Logo（复用）
    ├─ TheNav.vue           导航 + 主题切换
    ├─ HeroSection.vue      首屏
-   ├─ DocsSection.vue      知识文档
+   ├─ DocsSection.vue      文档中心
+   ├─ DocReader.vue        Markdown 阅读页
    ├─ ShowcaseSection.vue  成品展示
    ├─ BlogSection.vue      博客
    ├─ MembersSection.vue   成员
@@ -40,9 +43,34 @@ src/
    └─ TheFooter.vue        页脚
 ```
 
-**怎么改：** 加一篇博客 = 在 `src/data/blog.js` 的 `posts` 数组里加一条；
+**怎么改：** 加一篇文档 / 博客 = 在 `src/content/docs/` 放一个 `.md` 文件；
 换配色 = 改 `src/styles/tokens.css` 顶部的变量；
 改某板块布局 = 只动对应的 `*.vue` 文件。
+
+## 文档中心
+
+文档中心会自动扫描 `src/content/docs/*.md`，生成首页列表、分类筛选和独立阅读页。地址形式为 `#/docs/文件名`，适合 GitHub Pages 这种纯静态部署。
+
+新增或修改文档：
+
+1. 在 `src/content/docs/` 新增或编辑 `.md` 文件。
+2. 文件名就是访问地址，例如 `my-first-post.md` 对应 `#/docs/my-first-post`。
+3. 可选：在文件顶部写 frontmatter 控制标题、描述、分类和日期。
+
+```md
+---
+title: 我的第一篇博客
+description: 这篇文章会显示在文档中心列表中。
+category: 随笔
+date: 2026-06-28
+---
+
+# 我的第一篇博客
+
+正文从这里开始。
+```
+
+当前渲染支持标题、段落、无序/有序列表、表格、代码块、行内代码和链接。
 
 ## 部署（GitHub Pages，自动）
 

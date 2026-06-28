@@ -3,7 +3,7 @@ export const site = {
   brandName: ['Co', 'Evolutio'],   // [前缀, 高亮后缀]
   githubUrl: 'https://github.com/CoEvolutio',
   nav: [
-    { label: '知识文档', href: '#docs' },
+    { label: '文档中心', href: '#docs' },
     { label: '成品展示', href: '#showcase' },
     { label: '博客', href: '#blog' },
     { label: '成员', href: '#members' },
@@ -14,7 +14,7 @@ export const site = {
       {
         title: '内容',
         links: [
-          { label: '知识文档', href: '#docs' },
+          { label: '文档中心', href: '#docs' },
           { label: '成品展示', href: '#showcase' },
           { label: '博客', href: '#blog' },
           { label: '成员', href: '#members' },
